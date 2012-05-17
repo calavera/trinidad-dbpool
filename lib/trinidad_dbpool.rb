@@ -8,5 +8,6 @@ require 'trinidad'
 require 'trinidad/jars'
 
 require File.expand_path('../../trinidad-libs/tomcat-dbcp', __FILE__)
+require File.expand_path('../../trinidad-libs/tomcat-jdbc', __FILE__)
 
 require 'trinidad_dbpool/webapp_extension'
